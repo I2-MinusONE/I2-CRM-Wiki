@@ -14,6 +14,8 @@ the company that is using our CRM software. They use and manage their CRM Projec
 - [Read an existing user](./read_user.md)
 - [Update an existing user](./update_user.md)
 - [Destroy an existing user](./destroy_user.md)
+- [Fetch all roles of a user](./get_roles.md)
+- [Update list of roles assigned to a user](./update_roles.md)
 
 ---
 
