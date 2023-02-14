@@ -14,4 +14,5 @@ This project is an attempt at simplifying workflows. Every small-to-medium scale
 * Company - Internal Use only
 * [Organization](./organization/index.md)  
 * [User](./users/index.md)
-* [Contact](./contact/index.md)  
+* [Contact](./contact/index.md)
+* [Opportunity](./opportunity/index.md)  
