@@ -8,6 +8,7 @@ This module manages opportunities via API. Opportunities are the potential proje
 # Use Cases
 
 * [Fetch Opportunity Schema](./get_schema.md)
+* [Fetch All Opportunities](./get_all_opportunities.md)
 * [Create a new opportunity](./new_opportunity.md)  
 * [Read an existing opportunity](./read_opportunity.md)  
 * [Update an existing opportunity](./update_opportunity.md)  
