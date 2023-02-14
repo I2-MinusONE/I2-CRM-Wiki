@@ -1,5 +1,5 @@
-# Fetch Contact and Address Schema
-> Gets the schema for a contact of a company
+# Fetch Contact
+> Gets an existing contact of a company
 
 ## URL
 `GET` /contacts/`:id`.json
