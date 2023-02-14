@@ -6,7 +6,14 @@
 
 `GET` /opportunities.json?{search_params}
 
--- Todo what search params can we support?
+### Search Params
+We have the following search params:
+- opportunity_value_greater_than={value}
+- opportunity_value_lower_than={value}
+- pipeline_status={status-completed/in_progress/failed}
+- user_responsible_id={id}
+- organization_id={id}
+
 
 ## Response: Success
 
