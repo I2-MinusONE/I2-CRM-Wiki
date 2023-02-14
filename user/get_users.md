@@ -7,6 +7,7 @@ Returns a JSON object containing an array of user objects.
 - **URL**
 
   `/api/users?{search_params}`
+
   - **Search Params**
     - company_id={value}
     - team_id={value}
@@ -18,12 +19,23 @@ Returns a JSON object containing an array of user objects.
 - **Success Response:**
 
   - **Code:** 200 OK <br />
-    **Content:** `{ users: [ { id : 1, contact_id: 234 }, { id: 2, contact_id: 543 } ] }`
+    **Content:**
+    ```json
+    {
+      "users": [
+        { "id": 1, "contact_id": 234 },
+        { "id": 2, "contact_id": 543 }
+      ]
+    }
+    ```
 
 - **Error Response:**
 
   - **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "No users found" }`
+    **Content:**
+    ```json
+    { "error": "No users found" }
+    ```
 
 - **Sample Call:**
 
@@ -31,13 +43,12 @@ Returns a JSON object containing an array of user objects.
   $.ajax({
     url: "/api/users",
     dataType: "json",
-    type : "GET",
-    success : function(r) {
+    type: "GET",
+    success: function (r) {
       console.log(r);
-    }
+    },
   });
   ```
-
 
 ## Notes:
 

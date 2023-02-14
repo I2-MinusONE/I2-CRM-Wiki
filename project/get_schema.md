@@ -1,8 +1,8 @@
-# Fetch User Schema
-> Gets the schema for a user of a company
+# Fetch Project Schema
+> Gets the schema for a projejct of a company
 
 ## URL
-`GET` /users/schema.json
+`GET` /projects/schema.json
 
 ## Response: Success
 Status Code: `200 OK`
