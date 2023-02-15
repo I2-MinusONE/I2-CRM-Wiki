@@ -15,7 +15,7 @@
     // and so on...
 }
 ```
-This list of `field_name`s will be a subset of the fields in the parent [entity](./index.md).
+This list of `field_name`s will be a subset of the fields in the parent [entity](./README.md).
 
 ## Response: Success
 Status Code: `200 OK`
