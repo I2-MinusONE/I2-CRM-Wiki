@@ -23,25 +23,46 @@ the company that is using our CRM software. They use and manage their CRM Projec
 
 The following is the exhaustive list of all characteristics of this enitity.
 
-* `id`: `INTEGER`
+- `id`: `INTEGER`
+
   A unique ID self-assigned to this record.
-* `team_id`: `INTEGER`
+
+- `team_id`: `INTEGER`
+
   ID of the team to which this record belongs to.
-* `project_id`: `INTEGER`
+
+- `project_id`: `INTEGER`
+
   ID of the project to which this record belongs to.
-* `opportunity_id`: `INTEGER`
+
+- `opportunity_id`: `INTEGER`
+
   ID of the opportunity that was converted.
-* `value`: `INTEGER`
+
+- `value`: `INTEGER`
+
   Value of the converted opportunity.
-* `currency`: `STRING`
+
+- `currency`: `STRING`
+
   Currency in which the opportunity was converted.
-* `converted_at`: `DATETIME`
+
+- `converted_at`: `DATETIME`
+
   Date and time at which the opportunity was converted.
-* `converted_by`: `INTEGER`
+
+- `converted_by`: `INTEGER`
+
   User responsible for converting the opportunity.
-* `updated_at`: `DATETIME`
+
+- `updated_at`: `DATETIME`
+
   Date and time at which the record was last updated.
-* `misc`: `JSON OBJECT`
+
+- `misc`: `JSON OBJECT`
+
   Stores miscellaneous information about the converted opportunity.
-* `pipeline_id`: `INTEGER`
+
+- `pipeline_id`: `INTEGER`
+
   The pipeline ID of the converted opportunity.

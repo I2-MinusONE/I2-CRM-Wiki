@@ -2,15 +2,13 @@
 
 Retrieve the details of an existing User.
 
-```
-URL: `/users/:id.json`
-Method: `GET`
-Auth required: Yes
-```
+## URL
+
+`GET` /users/`:id`.json
 
 ## Path Parameters
 
-* `id` : `INTEGER` (required)
+- `id` : `INTEGER` (required)
   The ID of the user that needs to be retrieved.
 
 ## Success Response
@@ -21,8 +19,8 @@ Auth required: Yes
 
 ```json
 {
-"id": 123,
-"contact_id": 456
+  "id": 123,
+  "contact_id": 456
 }
 ```
 
@@ -34,7 +32,7 @@ Auth required: Yes
 
 ```json
 {
-"message": "Authentication failed"
+  "message": "Authentication failed"
 }
 ```
 
@@ -44,10 +42,9 @@ Auth required: Yes
 
 ```json
 {
-"message": "User not found"
+  "message": "User not found"
 }
 ```
-
 
 **Code**: `500 Internal Server Error`
 
@@ -55,10 +52,9 @@ Auth required: Yes
 
 ```json
 {
-"message": "Internal Server Error"
+  "message": "Internal Server Error"
 }
 ```
-
 
 ## Sample Request
 

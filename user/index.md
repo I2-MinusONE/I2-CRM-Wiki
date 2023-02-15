@@ -25,7 +25,7 @@ the company that is using our CRM software. They use and manage their CRM Projec
 
 The following is the exhaustive list of all characteristics of this enitity.
 
-* `id`: `INTEGER`
+- `id`: `INTEGER`
   A unique ID self-assigned to this record.
-* `contact_id`: `INTEGER`
+- `contact_id`: `INTEGER`
   ID of the contact that the user is linked to

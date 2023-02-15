@@ -7,11 +7,10 @@ Retrieve the details of an existing User.
 `GET /users.json?{search_params}`
 
 - search_params
-    - company_id={value}
-    - team_id={value}
+  - company_id={value}
+  - team_id={value}
 
 Auth required: Yes
-
 
 ## Path Parameters
 

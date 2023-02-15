@@ -4,38 +4,79 @@
 
 Updates an existing user with the new data provided.
 
-## HTTP Request
+## Request
 
 `PATCH /users/:id.json`
 
 ## Query Parameters
 
-* `id`: ID of the User to patch
+- `id`: ID of the User to patch
 
 ## Request Body
 
-* `contact_id`: ID of the contact that the user is linked to.
+- `contact_id`: ID of the contact that the user is linked to.
 
-## Response
+## Response: Success
 
-The response will be a JSON object containing the updated user data.
-
-## Examples
-
-### Request
-
- ### PATCH /users/1.json
+Status Code: `200 OK`
 
 ```json
 {
-    "contact_id": 1234
+  "id": 1,
+  "contact": {
+    "first_name": "Ikjot",
+    "middle_name": "Singh",
+    "last_name": "Dhody" //and so on
+  }
 }
 ```
 
-### Response
+## Response: Failure
+
+Status Code: `400 Bad Request`
+
 ```json
 {
-    "id": 1,
-    "contact_id": 1234
+  "error": "Invalid Parameters"
+}
+```
+
+## Response: Failure
+
+Status Code: `401 Unauthorized`
+
+```json
+{
+  "error": "You are not authorized to access this resource. Please sign up or log in."
+}
+```
+
+## Response: Failure
+
+Status Code: `403 Forbidden`
+
+```json
+{
+  "error": "Unauthorized"
+}
+```
+
+## Response: Failure
+
+Status Code: `422 Unprocessable Entity`
+
+```json
+{
+  "error": "Unprocessable Entity"
+}
+```
+
+## Response: Failure
+
+Status Code: `500 Internal Server Error`
+
+```json
+{
+  "error": "Internal Server Error"
 }
 ```
