@@ -2,7 +2,7 @@
 > Updates an existing project for a team
 
 ## URL
-`PUT` /teams/`:team_id`/projects/`:project_id`.json
+`PUT` /projects/`:project_id`.json
 
 ## Path Parameters
 * `team_id` : ID of the team that the project belongs to

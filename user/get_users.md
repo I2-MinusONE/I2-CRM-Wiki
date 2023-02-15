@@ -6,7 +6,7 @@ Returns a JSON object containing an array of user objects.
 
 - **URL**
 
-  `/api/users?{search_params}`
+  `/users.json?{search_params}`
 
   - **Search Params**
     - company_id={value}

@@ -2,7 +2,7 @@
 > Deletes an existing project
 
 ## URL
-`DELETE` /projects/`:id`
+`DELETE` /projects/`:id`.json
 
 ## Query Parameters
 * `id`: Project ID

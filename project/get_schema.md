@@ -1,5 +1,5 @@
 # Fetch Project Schema
-> Gets the schema for a projejct of a company
+> Gets the schema for a project of a company
 
 ## URL
 `GET` /projects/schema.json

@@ -3,7 +3,7 @@
 Retrieve the details of an existing User.
 
 ```
-URL: `/api/users/:id`
+URL: `/users/:id.json`
 Method: `GET`
 Auth required: Yes
 ```

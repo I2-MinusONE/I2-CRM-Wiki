@@ -6,21 +6,15 @@ Updates an existing user with the new data provided.
 
 ## HTTP Request
 
-`PUT /users/:id`
+`PUT /users/:id.json`
 
 ## Query Parameters
 
-Parameter | Type | Description
---------- | ---- | -----------
-id | integer | Required. The ID of the user to be updated.
+* `id`: ID of the User to patch
 
 ## Request Body
 
-The request body should be a JSON object containing the following fields:
-
-Field | Type | Description
------ | ---- | -----------
-contact_id | integer | Optional. ID of the contact that the user is linked to.
+* `contact_id`: ID of the contact that the user is linked to.
 
 ## Response
 

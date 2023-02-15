@@ -4,7 +4,8 @@
 
 This API creates a new user.
 
-## Request
+## URL
+`POST` /users.json
 
 The request should be a JSON object with the following properties:
 

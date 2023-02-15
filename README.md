@@ -13,6 +13,7 @@ This project is an attempt at simplifying workflows. Every small-to-medium scale
 * [Authorization](./authorization/index.md)  
 * Company - Internal Use only
 * [Organization](./organization/index.md)  
-* [User](./users/index.md)
+* [User](./user/index.md)
 * [Contact](./contact/index.md)
 * [Opportunity](./opportunity/index.md)  
+* [Project](./project/index.md)  
