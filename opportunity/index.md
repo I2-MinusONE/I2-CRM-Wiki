@@ -1,5 +1,5 @@
 # Opportunity
-> This WIKI page is maintained manually. Please opportunity the project manager for any clarifications.
+> This WIKI page is maintained manually. Please contact the project manager for any clarifications.
 
 This module manages opportunities via API. Opportunities are the potential projects for a company. Each project has a prequel opportunity - that gets converted into that project.
 
