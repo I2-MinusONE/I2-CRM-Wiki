@@ -14,7 +14,7 @@ Status Code: `200 OK`
     "id": 1,
     "team_id": 1,
     "project_id": 1,
-    "opportunity_converted_id": 1,
+    "opportunity_id": 1,
     "value": 1000,
     "currency": "USD",
     "converted_at": "2023-02-14 12:00:00",

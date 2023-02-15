@@ -6,14 +6,10 @@ Returns a JSON object containing an array of user objects.
 
 - **URL**
 
-  `/users/:id/roles.json`
+  `GET /users/:id/roles.json`
 
   - **URL Params**
     - id={user id}
-
-- **Method:**
-
-  `GET`
 
 - **Success Response:**
 

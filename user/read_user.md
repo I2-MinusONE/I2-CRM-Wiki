@@ -63,7 +63,7 @@ Auth required: Yes
 ## Sample Request
 
 ```http
-GET /api/users/123 HTTP/1.1
+GET /users/123.json HTTP/1.1
 Authorization: Bearer <access_token>
 Content-Type: application/json
 ```

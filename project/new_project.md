@@ -7,7 +7,7 @@ Creates a new project record.
 
 ## Parameters
 * `team_id` (required): ID of the team to which this record belongs to.
-* `opportunity_converted_id` (required): ID of the opportunity that was converted.
+* `opportunity_id` (required): ID of the opportunity that was converted.
 * `value` (required): Value of the converted opportunity.
 * `currency` (required): Currency in which the opportunity was converted.
 * `converted_at` (required): Date and time at which the opportunity was converted.
@@ -21,7 +21,7 @@ Status Code: `201 Created`
 {
     "id": 12345,
     "team_id": 67890,
-    "opportunity_converted_id": 13579,
+    "opportunity_id": 13579,
     "value": 1000,
     "currency": "USD",
     "converted_at": "2022-03-01 15:00:00",

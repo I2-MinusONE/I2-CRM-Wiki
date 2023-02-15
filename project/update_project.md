@@ -2,7 +2,7 @@
 > Updates an existing project for a team
 
 ## URL
-`PUT` /projects/`:project_id`.json
+`PATCH` /projects/`:project_id`.json
 
 ## Path Parameters
 * `team_id` : ID of the team that the project belongs to
@@ -10,7 +10,7 @@
 
 ## Request Parameters
 The following fields can be updated:
-* `opportunity_converted_id` : ID of the opportunity that was converted
+* `opportunity_id` : ID of the opportunity that was converted
 * `value` : Value of the converted opportunity
 * `currency` : Currency in which the opportunity was converted
 * `converted_at` : Date and time at which the opportunity was converted
@@ -28,7 +28,7 @@ Status Code: `200 OK`
         "id": 1,
         "team_id": 1,
         "project_id": 1234,
-        "opportunity_converted_id": 5678,
+        "opportunity_id": 5678,
         "value": 10000,
         "currency": "USD",
         "converted_at": "2023-02-14 12:00:00",

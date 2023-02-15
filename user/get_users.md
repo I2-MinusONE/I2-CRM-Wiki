@@ -1,55 +1,86 @@
-# Get Users
+# Get users
 
-> This API gets all the users in the database.
+Retrieve the details of an existing User.
 
-Returns a JSON object containing an array of user objects.
+- **URL** `
 
-- **URL**
+`GET /users.json?{search_params}`
 
-  `/users.json?{search_params}`
-
-  - **Search Params**
+- search_params
     - company_id={value}
     - team_id={value}
 
-- **Method:**
+Auth required: Yes
 
-  `GET`
 
-- **Success Response:**
+## Path Parameters
 
-  - **Code:** 200 OK <br />
-    **Content:**
-    ```json
-    {
-      "users": [
-        { "id": 1, "contact_id": 234 },
-        { "id": 2, "contact_id": 543 }
-      ]
-    }
-    ```
+- `id` : `INTEGER` (required)
+  The ID of the user that needs to be retrieved.
 
-- **Error Response:**
+## Success Response
 
-  - **Code:** 404 NOT FOUND <br />
-    **Content:**
-    ```json
-    { "error": "No users found" }
-    ```
+**Code**: `200 OK`
 
-- **Sample Call:**
+**Content Example**
 
-  ```javascript
-  $.ajax({
-    url: "/api/users",
-    dataType: "json",
-    type: "GET",
-    success: function (r) {
-      console.log(r);
-    },
-  });
-  ```
+```json
+[
+  {
+    "id": 123,
+    "contact_id": 456
+  }
+]
+```
 
-## Notes:
+## Error Response
 
-The response will be a JSON object containing an array of user objects. Each user object will contain an id and a contact_id.
+**Code**: `401 Unauthorized`
+
+**Content**
+
+```json
+{
+  "message": "Authentication failed"
+}
+```
+
+**Code**: `404 Not Found`
+
+**Content**
+
+```json
+{
+  "message": "User not found"
+}
+```
+
+**Code**: `500 Internal Server Error`
+
+**Content**
+
+```json
+{
+  "message": "Internal Server Error"
+}
+```
+
+## Sample Request
+
+```http
+GET /users/123.json HTTP/1.1
+Authorization: Bearer <access_token>
+Content-Type: application/json
+```
+
+## Sample Response
+
+```http
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "id": 123,
+    "contact_id": 456
+}
+```

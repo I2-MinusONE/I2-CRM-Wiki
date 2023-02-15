@@ -6,7 +6,7 @@ Updates an existing user with the new data provided.
 
 ## HTTP Request
 
-`PUT /users/:id.json`
+`PATCH /users/:id.json`
 
 ## Query Parameters
 
@@ -24,7 +24,7 @@ The response will be a JSON object containing the updated user data.
 
 ### Request
 
- ### PUT /users/1
+ ### PATCH /users/1.json
 
 ```json
 {

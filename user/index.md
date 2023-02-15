@@ -1,6 +1,6 @@
 # User
 
-> This WIKI page is maintained manually. Please user the project manager for any clarifications.
+> This WIKI page is maintained manually. Please contact the project manager for any clarifications.
 
 This module manages users via API. Users are the current/former employees of
 the company that is using our CRM software. They use and manage their CRM Project.

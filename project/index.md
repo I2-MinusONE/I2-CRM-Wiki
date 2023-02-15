@@ -1,6 +1,6 @@
 # Project
 
-> This WIKI page is maintained manually. Please use the project manager for any clarifications.
+> This WIKI page is maintained manually. Please contact the project manager for any clarifications.
 
 This module manages projects via API. Projects are the current/former projects of
 the company that is using our CRM software. They use and manage their CRM Project.
@@ -29,7 +29,7 @@ The following is the exhaustive list of all characteristics of this enitity.
   ID of the team to which this record belongs to.
 * `project_id`: `INTEGER`
   ID of the project to which this record belongs to.
-* `opportunity_converted_id`: `INTEGER`
+* `opportunity_id`: `INTEGER`
   ID of the opportunity that was converted.
 * `value`: `INTEGER`
   Value of the converted opportunity.

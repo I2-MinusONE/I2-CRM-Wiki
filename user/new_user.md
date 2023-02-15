@@ -1,6 +1,6 @@
 # Create a new user
 
-> This WIKI page is maintained manually. Please use the project manager for any clarifications.
+> This WIKI page is maintained manually. Please contact the project manager for any clarifications.
 
 This API creates a new user.
 
@@ -49,7 +49,7 @@ If there was an error creating the user, the response will be a JSON object with
 
 ## Request
 
-POST /api/users
+POST /users.json
 
 Request body:
 
