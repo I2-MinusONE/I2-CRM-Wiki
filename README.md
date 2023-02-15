@@ -9,11 +9,11 @@ This project is an attempt at simplifying workflows. Every small-to-medium scale
 
 ## Entities
 
-* [Authentication](./authentication/index.md)  
-* [Authorization](./authorization/index.md)  
+* [Authentication](./authentication/README.md)  
+* [Authorization](./authorization/README.md)  
 * Company - Internal Use only
-* [Organization](./organization/index.md)  
-* [User](./user/index.md)
-* [Contact](./contact/index.md)
-* [Opportunity](./opportunity/index.md)  
-* [Project](./project/index.md)  
+* [Organization](./organization/README.md)  
+* [User](./user/README.md)
+* [Contact](./contact/README.md)
+* [Opportunity](./opportunity/README.md)  
+* [Project](./project/README.md)  

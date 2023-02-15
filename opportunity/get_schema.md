@@ -21,7 +21,7 @@ Status Code: `200 OK`
 }
 ```
 
-> This list of `field_name`s will be a subset of the fields in the parent [entity](./index.md).  
+> This list of `field_name`s will be a subset of the fields in the parent [entity](./README.md).  
 
 > The `type`s can be one of
 > * `INTEGER` Number
