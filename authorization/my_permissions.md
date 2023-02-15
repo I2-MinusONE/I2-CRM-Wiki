@@ -10,29 +10,52 @@ Status Code: `200 OK`
 [
     {
         "role_id": 1,
+        "role_name": "Role Name 1",
         "permissions": [
             {
                 "permission_id": 1,
-                "permission_name": "Entity 1",
-                "permissions": "CRUDA"
-                // { create, read, update, destroy, admin } as a string
+                "entity": {
+                    "id": 1,
+                    "name": "Entity name 1",
+                },
+                "create_permission": true,
+                "read_permission": true,
+                "update_permission": true,
+                "delete_permission": true,
+                "admin_permission": true,
+                "files_permission": true
             },
             {
                 "permission_id": 2,
-                "permission_name": "Entity 2",
-                "permissions": "RU"
-                // { create, read, update, destroy, admin } as a string
+                "entity": {
+                    "id": ,
+                    "name": "Entity name 2",
+                },
+                "create_permission": true,
+                "read_permission": true,
+                "update_permission": true,
+                "delete_permission": true,
+                "admin_permission": true,
+                "files_permission": true
             } // and so on...
         ]
     },
     {
         "role_id": 2,
+        "role_name": "Role Name 2",
         "permissions": [
             {
                 "permission_id": 3,
-                "permission_name": "Entity 1",
-                "permissions": "CR"
-                // { create, read, update, destroy, admin } as a string
+                "entity": {
+                    "id": 1,
+                    "name": "Entity name 1",
+                },
+                "create_permission": true,
+                "read_permission": true,
+                "update_permission": true,
+                "delete_permission": true,
+                "admin_permission": true,
+                "files_permission": true
             } // and so on...
         ]
     } // and so on...
