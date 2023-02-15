@@ -17,7 +17,7 @@ Status Code: `201 Created`
 {
     "id": 1,
     "name": "Role Name",
-    "user_ids": []
+    "users": []
 }
 ```
 

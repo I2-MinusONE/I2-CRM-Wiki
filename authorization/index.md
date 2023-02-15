@@ -37,8 +37,12 @@ The following is the exhaustive list of all characteristics of this enitity.
 * `id: INTEGER`  
 A unique ID self-assigned to this record.
 * `role_id: INTEGER`  
-* `access: STRING`  
-Stores access set { create, read, update, destroy, admin } as a string - CRUDA
+* `create_permission: BOOL`
+* `read_permission: BOOL`
+* `update_permission: BOOL`
+* `delete_permission: BOOL`
+* `admin_permission: BOOL`
+* `files_permission: BOOL`
 
 ## Related Entity - Assignment
 The following is the exhaustive list of all characteristics of this enitity.

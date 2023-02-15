@@ -14,7 +14,10 @@ Status Code: `200 OK`
         "permissions": [
             {
                 "permission_id": 1,
-                "permission_name": "Entity 1",
+                "entity": {
+                    "id": 1,
+                    "name": "Entity name 1",
+                },
                 "create_permission": true,
                 "read_permission": true,
                 "update_permission": true,
@@ -24,7 +27,10 @@ Status Code: `200 OK`
             },
             {
                 "permission_id": 2,
-                "permission_name": "Entity 2",
+                "entity": {
+                    "id": ,
+                    "name": "Entity name 2",
+                },
                 "create_permission": true,
                 "read_permission": true,
                 "update_permission": true,
@@ -40,7 +46,10 @@ Status Code: `200 OK`
         "permissions": [
             {
                 "permission_id": 3,
-                "permission_name": "Entity 1",
+                "entity": {
+                    "id": 1,
+                    "name": "Entity name 1",
+                },
                 "create_permission": true,
                 "read_permission": true,
                 "update_permission": true,

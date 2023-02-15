@@ -11,11 +11,43 @@
 ```json
 {
     "name": "Role Name",
-    "user_ids": [
-        1, 2, // other users that have been assigned this role
+    "users": [
+        {
+            "id": 1,
+            "first_name": "First Name 1",
+            // ...other fields of the user
+        },
+        {
+            "id": 2,
+            "first_name": "First Name 2",
+            // ...other fields of the user
+        },
+        // and so on
     ],
     "permissions": [
-        1, 2 // other permissions that are enabled for this role
+        {
+            "permission_id": 1,
+            "entity_id": 1,
+            "create_permission": true,
+            "read_permission": true,
+            "update_permission": true,
+            "delete_permission": true,
+            "admin_permission": true,
+            "files_permission": true
+        },
+        {
+            "permission_id": 2,
+            "entity": {
+                "id": 1,
+                "name": "Entity name 1",
+            },
+            "create_permission": true,
+            "read_permission": true,
+            "update_permission": true,
+            "delete_permission": true,
+            "admin_permission": true,
+            "files_permission": true
+        } // and so on...
     ]
 }
 ```
@@ -28,7 +60,7 @@ Status Code: `200 OK`
     "success": "The role was updated.",
     "role": {
         "id": "Modified Role ID",
-        // other role fields with modified data, user_ids, permissioms...
+        // other role fields with modified data, users, permissioms...
     }
 }
 ```

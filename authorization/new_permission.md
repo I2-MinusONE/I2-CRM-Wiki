@@ -7,7 +7,9 @@
 ## Body Parameters
 ```json
 {
-    "role_id": 1,
+    "role_ids": [
+        1, 2, 3 // a list of role ids to which this permission is assigned
+    ],
     "entity_id": 1,
     "create_permission": true,
     "read_permission": true,
@@ -22,8 +24,13 @@
 Status Code: `201 Created`
 ```json
 {
-    "role_id": 1,
-    "entity_id": 1,
+    "role_ids": [
+        1, 2, 3
+    ],
+    "entity": {
+        "id": 1,
+        "name": "Entity name 1",
+    },
     "create_permission": true,
     "read_permission": true,
     "update_permission": true,

@@ -12,13 +12,7 @@ Status Code: `200 OK`
 [
   {
     "id": 1,
-    "name": "Role Name",
-    "user_ids": [
-        1, 2, // other users that have been assigned this role
-    ],
-    "permission_ids": [
-        1, 2 // other permission ids for that role
-    ]
+    "name": "Role Name"
   },
   // and so on
 ]

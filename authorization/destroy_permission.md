@@ -1,5 +1,5 @@
 # Destroy an existing permission
-> Deletes an existing role for a company
+> Deletes an existing permission for a role
 
 ## URL
 `DELETE` /permissions/`:id`.json
