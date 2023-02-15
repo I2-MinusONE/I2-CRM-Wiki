@@ -7,7 +7,6 @@
 ## Body Parameters
 ```json
 {
-    "id": 1,
     "company_id": 1,
     "name": "DELL",
     "phone": "1234567890",
@@ -84,8 +83,10 @@ Status Code: `201 Created`
         "date_of_birth": "01-01-2001",
         "anniversary": "12-12-2022"
     },
-    "user_responsible_id": 1, // some valid user_id
-    "user_responsible_name": "Ishaan Singh",
+    "user_responsible": {
+      "id": 1,
+      "name": "Ishaan Singh"
+    },
     "created_at": "timestamp as yyyy-MM-dd'T'HH:mm:ssZZZZ",
     "updated_at": "timestamp as yyyy-MM-dd'T'HH:mm:ssZZZZ",
     "misc": {

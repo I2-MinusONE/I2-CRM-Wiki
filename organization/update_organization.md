@@ -22,7 +22,7 @@ Status Code: `200 OK`
 ```json
 {
     "success": "The organization was updated.",
-    "opportunorganizationity": {
+    "organization": {
         "id": "Modified Organization ID",
         // other organization fields with modified data...
     }

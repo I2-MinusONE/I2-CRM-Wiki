@@ -1,5 +1,5 @@
-# Opportunity
-> This WIKI page is maintained manually. Please opportunity the project manager for any clarifications.
+# Organization
+> This WIKI page is maintained manually. Please contact the project manager for any clarifications.
 
 This module manages organizations of a company via API. Organizations are companies that out customer-companied deal with. Every contact, opportunity, job, etc belongs to an organization.
 
