@@ -19,7 +19,7 @@ The following fields can be updated:
 - `value` : Value of the converted opportunity
 - `currency` : Currency in which the opportunity was converted
 - `converted_at` : Date and time at which the opportunity was converted
-- `converted_by` : User responsible for converting the opportunity
+- `created_by` : User responsible for converting the opportunity
 - `misc` : Miscellaneous information about the converted opportunity
 - `pipeline_id` : The pipeline ID of the converted opportunity
 
@@ -39,7 +39,7 @@ Status Code: `200 OK`
     "value": 10000,
     "currency": "$",
     "converted_at": "2023-02-14 12:00:00",
-    "converted_by": 123,
+    "created_by": 123,
     "misc": {
       "notes": "Converted opportunity from Q1 sales push"
     },

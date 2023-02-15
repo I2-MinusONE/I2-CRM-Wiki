@@ -51,7 +51,7 @@ The following is the exhaustive list of all characteristics of this enitity.
 
   Date and time at which the opportunity was converted.
 
-- `converted_by`: `INTEGER`
+- `created_by`: `INTEGER`
 
   User responsible for converting the opportunity.
 

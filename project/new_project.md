@@ -22,7 +22,7 @@ Creates a new project record.
   Currency in which the opportunity was converted.
 - `converted_at` (required):
   Date and time at which the opportunity was converted.
-- `converted_by` (required):
+- `created_by` (required):
   User responsible for converting the opportunity.
 - `misc` (optional):
   Stores miscellaneous information about the converted opportunity.
@@ -41,7 +41,7 @@ Status Code: `201 Created`
   "value": 1000,
   "currency": "$",
   "converted_at": "2022-03-01 15:00:00",
-  "converted_by": 54321,
+  "created_by": 54321,
   "misc": {},
   "pipeline_id": 98765,
   "created_at": "2022-03-01 15:00:00",

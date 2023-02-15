@@ -23,7 +23,7 @@ Status Code: `200 OK`
   "value": 1000,
   "currency": "$",
   "converted_at": "2023-02-14 12:00:00",
-  "converted_by": 1,
+  "created_by": 1,
   "updated_at": "2023-02-14 12:00:00",
   "misc": {},
   "pipeline_id": 1

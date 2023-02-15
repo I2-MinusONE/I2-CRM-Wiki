@@ -1,4 +1,4 @@
-# Read an existing User
+# Fetch an existing User
 
 Retrieve the details of an existing User.
 

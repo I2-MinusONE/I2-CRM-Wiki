@@ -34,8 +34,13 @@ Example response body:
 
 ```json
 {
-  "id": 456,
-  "contact_id": 123
+  "id": 1,
+  "contact": {
+    "contact_id":23,
+    "first_name": "Ikjot",
+    "middle_name": "Singh",
+    "last_name": "Dhody" //and so on
+  }
 }
 ```
 
